@@ -5,7 +5,7 @@ from PIL import Image
 
 from django.shortcuts import render
 
-openai.api_key = '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'
+openai.api_key = os.getenv('OPENAI_API_KEY') 
 # Create your views here.
 
 def index(request):
