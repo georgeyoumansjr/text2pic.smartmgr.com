@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-vsmhfwaod-je6s1hb^86j6!unc398!=3d-s&m5+ca*rc$m-@ek
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'text2pic.smartmgr.com',
+    'localhost',
+]
 
 
 # Application definition

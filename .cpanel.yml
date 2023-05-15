@@ -1,0 +1,8 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/tnhlabsc/text2pic.smartmgr.com/
+ - /bin/cp -R app $DEPLOYPATH
+ - /bin/cp -R text_to_pic $DEPLOYPATH
+ - /bin/cp manage.py $DEPLOYPATH
+ - /bin/cp requirements.txt $DEPLOYPATH
